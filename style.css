@@ -1,0 +1,191 @@
+* {
+ 
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  line-height: 150%;
+  font-family: "Inter", sans-serif;;
+  font-weight: 400;
+
+ 
+   
+ 
+}
+@import url('http://fonts.cdnfonts.com/css/matrix');
+
+body {
+    background-color: black;
+    background-image: url('./assets/25336.jpg');
+    color: #fff;
+    font-family: 'Matrix', 'sans-serif';
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+
+
+  main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left:80px;
+
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    gap:60px; 
+  }
+
+
+.textarea{
+  border:none;
+  color:#fff;
+  margin-top: 90px;
+  text-transform:lowercase;
+
+
+}
+
+::placeholder {
+  color: #e5e5e5;
+}
+
+.mensagem{
+background-color: #fff;
+background-image:url("assets/lupa.png" ) ;
+background-repeat: no-repeat;
+background-position: center;
+border:none;
+font-size: 28px;
+text-align: center;
+border-radius: 24px;
+
+color: #0A3871;
+
+
+}
+
+.mensagem:focus{
+  outline:none;
+
+
+}
+
+  .input-text {
+   
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 150%;
+    background-color: #e5e5e5;
+    height: 70vh;
+    border: none;
+    text-transform: lowercase;
+  }
+
+
+::placeholder {
+  color: #fff;
+}
+
+
+
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.button{
+  display:flex;
+  justify-content: flex-start; 
+  gap: 14px;
+}
+
+.btn-encriptar {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color:rgba(10, 56, 113, 1);
+  width: 308px;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 1.5em;
+  cursor: pointer;
+ 
+}
+
+
+.btn-encriptar:hover{
+  transition: 1s;
+  opacity: 0.8;
+
+}
+ .btn-descripto{
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color:rgba(10, 56, 113, 1);
+  width: 308px;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 1.5em;
+  cursor: pointer;
+  
+  
+ }
+
+.btn-descripto:hover{
+  background-color: #e8eaf3 ;
+  color:rgba(10, 56, 113, 1);
+  border: 1px solid rgba(10, 56, 113, 1);
+}
+
+.text-input {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 150%;
+    background-color:#fff;
+    height: 70vh;
+    border: none;
+    align-items: center;
+   
+}
+
+.btn-copiar{
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color:rgba(10, 56, 113, 1);
+  width: 308px;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 1.5em;
+    position: absolute;
+  top: 520px;
+  right: 290px;
+  cursor: pointer;
+ 
+}
+.btn-copiar:hover{
+  transition: 1s;
+  opacity: 0.8;
+
+}
+
+
+.cripto{
+  /* Inicialmente escondemos a área de saída */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  font-size: 2rem;
+}

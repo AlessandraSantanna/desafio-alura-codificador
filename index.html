@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&display=swap" rel="stylesheet">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+  <header>
+    <h1 class="title">Decodificador</h1>
+  </header>
+
+
+<main>
+  <section class="main">
+    
+    <div class="textLocal">
+      <input type="text" id="digiteTexto" placeholder="Digite seu texto...">
+  </div>
+      <textarea name="texto_digitado" class="input-text" placeholder="insira o texto" wrap="hard"></textarea>
+
+     <div class = "informacao"> 
+      <h6> Apenas letras minusculas e sem acento</h6>
+     </div>
+
+
+     <div class=" button">
+      <button class="btn-encriptar" onclick="btnEncriptar()">Encriptografar </button>
+      <button class="btn-descripto" onclick="btnDesencriptar()">Descriptografar </button>
+     
+   </div>
+
+   
+  
+
+    </section>  
+    <div class="cripto">
+      <textarea class="mensagem" id="meuTexto" cols="20" rows="14" placeholder=></textarea>
+       <button class="btn-copiar"onclick="copiarTexto()" >Copiar </button>
+      </div>
+   
+  </main>
+
+   
+  <script src="script.js"></script>
+</body>
+</html>
+
