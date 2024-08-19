@@ -14,11 +14,9 @@
 
 body {
     background-color:#FFB6C1;
-   
     background-repeat: no-repeat;
     background-position: center;
-    color: #fff;
-   
+    color:  rgb(228, 81, 191);
     font-weight: 400;
 }
 
@@ -27,23 +25,21 @@ body {
   display: inline-flex;
   color: rgb(228, 81, 191);
  font-size: 36px;
-
 font-family: Roboto;
 font-weight: 400;
-
 margin-left:40px;
+
 
 }
 
 .informacao{
   display: flex;
-  margin-left:  25px;
+  margin-left:250px;
   margin-bottom: 1px;
-  gap :150px;
   color: rgb(228, 81, 191);
   font-weight: bold;
   font-size: 18px;
-text-align: center;
+align-items:  center;
 
 
 }
@@ -58,10 +54,8 @@ text-align: center;
     margin-bottom: 25px;
     margin-left:80px;
     justify-content: space-around;
-
     width: 85%;
     flex-direction:row;
-    gap: 0px; 
     border-radius: 24px;
     background-color:#F6e6d1;
   }
@@ -76,7 +70,7 @@ text-align: center;
 
 .textarea{
   border:none;
-  color:#fff;
+  color: rgb(228, 81, 191);;
   text-transform:lowercase;
 
 
@@ -97,8 +91,9 @@ border-color:rgb(228, 81, 191);
 font-size: 20px;
 text-align: center;
 border-radius: 24px;
+border-width: medium;
 margin-top: 25px;
-color:#fff;
+color:rgb(228, 81, 191);;
 
 
 }
@@ -120,7 +115,8 @@ color:#fff;
     border-radius: 24px;
     margin-top: 25px;
     margin-left: 100px;
-    color:#fff;
+    border-width: medium;
+    color: rgb(228, 81, 191);;
 
   }
 
@@ -232,6 +228,7 @@ cursor: pointer;
   margin-top: 10px;
   border-radius: 1.5em;
   cursor: pointer;
+  
  
 }
 .btn-copiar:hover{
@@ -240,7 +237,35 @@ cursor: pointer;
  
 }
 
+.sobre{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.mim{
+  gap:20px;
+  background-image:url("assets/fundo3.jpg" ) ;
+  color: rgb(228, 81, 191);
+  background-color:rgb(228, 81, 191);
+  width: 450px;
+ height:40px; 
+  border-radius: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+font-size: 15px;
+font-weight: bold;
+align-items: center;
+}
+
+.logos{
+  width: 25px;
+  margin-top: 8px;
+ 
+ 
+}
+/*-----------------------------------*/
 @media (max-width: 999px) {
 
   main {
@@ -283,13 +308,13 @@ cursor: pointer;
  margin-top: 25px;
  margin-left: 25px;
  margin-right:  1px;
- color:#fff;
+
  width: 40%;
  }
  .mensagem{
   background-color: #FFB6C1;
   background-image:url("assets/chave.png" ) ;
-  background-size: 30%;
+  background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
   border-color:rgb(228, 81, 191);
@@ -299,7 +324,7 @@ cursor: pointer;
   margin-top: 25px;
   margin-left: 5px;
   margin-right:  1px;
-  color:#fff;
+  
   width: 40%;
  }  
 
@@ -323,5 +348,44 @@ cursor: pointer;
   border-radius: 1.5em;
   cursor: pointer;
   
+}
+
+.mim{
+  gap:20px;
+  background-image:url("assets/fundo2.jpg" ) ;
+  color: rgb(228, 81, 191);
+  background-color:rgb(228, 81, 191);
+  width: 350px;
+ height:40px; 
+  border-radius: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+font-size: 10px;
+font-weight: bold;
+align-items: center;
+}
+
+.logos{
+  width: 20px;
+  margin-top: 8px;
+ 
+ 
+}
+
+
+
+
+.informacao{
+  
+  display: flex;
+  margin-left:20px;
+  margin-bottom: 1px;
+  color: rgb(228, 81, 191);
+  font-weight: bold;
+  font-size: 12px;
+
+
+
 }
 }

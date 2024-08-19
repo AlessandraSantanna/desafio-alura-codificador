@@ -158,7 +158,7 @@ function copiarTexto() {
 
 	navigator.clipboard.writeText(textoASerCopiado.value);
 
-	alerta.textContent = "Texto copiado!"
+	alerta.textContent = "✔️ Texto copiado!"
 
 	limparTexto()
 }
