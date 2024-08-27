@@ -4,7 +4,12 @@
 Este decodificador faz parte do projeto ONE Next Education.
 E como requisito para a próxima fase, devemos utilizar nossos conhecimentos em HTML, CSS e JavaScript para entregar um decodificador de texto simples.
 
+Entre e confira:https://decodificadortexto.netlify.app/
+
+
  ![tela do decodificador](https://github.com/user-attachments/assets/b6c83a00-1ec5-47d5-b84f-af68eac53354)
+
+
 
 ## Criptografia:
 - A letra "e" é convertida para "enter"
